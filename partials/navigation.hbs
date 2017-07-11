@@ -1,0 +1,10 @@
+{{!-- Blog navigation --}}
+<div class="nav">
+    <ul>
+        {{#foreach navigation}}
+            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+            <li><a class="subscribe" href="http://eepurl.com/cVKcUT" rel="noopener noreferrer" target="blank">Subscribe</a></li>
+    </ul>
+</div>
+<span class="nav-cover"></span>

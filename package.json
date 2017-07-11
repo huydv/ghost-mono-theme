@@ -1,0 +1,52 @@
+{
+  "name": "Luna",
+  "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+  "demo": "https://demo.ghost.io",
+  "version": "1.3.6",
+  "engines": {
+    "ghost": ">=0.9.0 <1.0.0"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  },
+  "author": "Ghost Foundation <hello@ghost.org> (https://ghost.org)",
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Personal Blogs"
+    ]
+  },
+  "keywords": [
+    "ghost",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryGhost/Casper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TryGhost/Casper/issues"
+  },
+  "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+  "homepage": "https://github.com/TryGhost/Casper#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^1.2.2"
+  }
+}
