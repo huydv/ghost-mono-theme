@@ -6,6 +6,7 @@ var cleancss = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
 var prettify = require('gulp-jsbeautifier');
 var runSequence = require('run-sequence');
+var gutil = require('gulp-util');
 var del = require('del');
 
 // Create a browser sync instance
@@ -86,6 +87,9 @@ gulp.task('js:production', function() {
     return gulp
         .src(src.js)
         .pipe(uglify())
+        .on('error', function(err) {
+            gutil.log(gutil.colors.red('[Error]'), err.toString());
+        })
         .pipe(gulp.dest(dest.js))
         .pipe(bs.reload({stream: true}));
 });

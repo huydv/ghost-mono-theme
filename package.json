@@ -1,7 +1,7 @@
 {
-  "name": "Luna",
-  "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
-  "demo": "https://demo.ghost.io",
+  "name": "Mono",
+  "description": "My personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+  "demo": "https://huydv.com",
   "version": "1.3.6",
   "engines": {
     "ghost": ">=0.9.0 <1.0.0"
@@ -11,7 +11,7 @@
     "desktop": "assets/screenshot-desktop.jpg",
     "mobile": "assets/screenshot-mobile.jpg"
   },
-  "author": "Ghost Foundation <hello@ghost.org> (https://ghost.org)",
+  "author": "HuyDV",
   "gpm": {
     "type": "theme",
     "categories": [
@@ -25,13 +25,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TryGhost/Casper.git"
+    "url": "git+https://github.com/huydv/ghost-mono-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/TryGhost/Casper/issues"
+    "url": "https://github.com/huydv/ghost-mono-theme/issues"
   },
-  "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
-  "homepage": "https://github.com/TryGhost/Casper#readme",
+  "contributors": "https://github.com/huydv/ghost-mono-theme/graphs/contributors",
+  "homepage": "https://github.com/huydv/ghost-mono-theme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -47,6 +47,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
     "run-sequence": "^1.2.2"
   }
 }
