@@ -56,7 +56,7 @@
 
         </section>
 
-
+        {{!--Remove comment below line to enbale disqus comment--}}
         {{!--<div id="disqus_thread"></div>--}}
         
         <!-- Disqus comment -->
@@ -65,30 +65,20 @@
         /**
         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-       
-        /*var disqus_config = function () {
-        this.page.url = '{{url absolute="true"}}';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'ghost-{{id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://huydv-com.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();*/
+        // PUT YOUR DISQUS CODE HERE
+      
         </script>
         {{!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>--}}
 
             {{!-- Email subscribe form at the bottom of the page --}}
-            {{#if @labs.subscribers}}
+            {{!--{{#if @labs.subscribers}}
             <section class="gh-subscribe">
                 <h3 class="gh-subscribe-title">Subscribe to {{@blog.title}}</h3>
                 <p>Get the latest posts delivered right to your inbox.</p>
                 {{subscribe_form placeholder="Your email address"}}
                 <span class="gh-subscribe-rss">or subscribe <a href="http://cloud.feedly.com/#subscription/feed/{{@blog.url}}/rss/">via RSS</a> with Feedly!</span>
             </section>
-            {{/if}}
+            {{/if}}--}}
 
         </footer>
 
