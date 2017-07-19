@@ -102,6 +102,14 @@ html, body {
     padding-left: 30px;
 }
 
+code[class*="language-"], pre[class*="language-"] {
+    white-space: initial;
+}
+
+img {
+    max-width: 100%;
+}
+
 .icon {
     padding: 8px;
 }
@@ -145,6 +153,16 @@ html, body {
     &:hover {
         color: $link-hover-color
     }
+}
+
+::selection {
+    background: #FFF5B8;
+    display: block;
+}
+
+::-moz-selection {
+    background: #FFF5B8;
+    display: block; 
 }
 
 @media screen and (max-width: 1200px) 
